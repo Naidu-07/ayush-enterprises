@@ -1,0 +1,85 @@
+/* ==========================================================================
+   Projects Section Component Styles
+   ========================================================================== */
+
+.projects-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #F5F7FA;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Project Card */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 38, 83, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(6, 43, 89, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  border-color: #cbd5e1;
+}
+
+.project-card-image-box {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.project-card:hover .project-card-img {
+  transform: scale(1.08);
+}
+
+.project-category-badge {
+  position: absolute;
+  top: 0.875rem;
+  left: 0.875rem;
+  background-color: rgba(0, 38, 83, 0.85);
+  backdrop-filter: blur(4px);
+  color: #FFA500;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Project Modal Dialog */
+.project-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background-color: rgba(0, 26, 58, 0.75);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.project-modal-dialog {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  max-width: 46rem;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
