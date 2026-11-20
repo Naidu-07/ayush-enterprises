@@ -134,6 +134,12 @@ export default function Footer({ onNavigate }) {
                   {companyInfo.phone}
                 </a>
               </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="w-4 h-4 text-[#FFA500] flex-shrink-0" />
+                <a href={`tel:${companyInfo.phone}`} className="text-white hover:text-[#FFA500] transition-colors font-medium">
+                  {companyInfo.phone}
+                </a>
+              </div>
 
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-[#FFA500] flex-shrink-0" />
