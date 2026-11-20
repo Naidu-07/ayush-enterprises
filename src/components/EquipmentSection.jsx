@@ -1594,19 +1594,15 @@ export default function EquipmentSection() {
 
                 </button>
 
-                <button
+                
+<a
+  href="tel:+919848834377"
+  className="w-full py-1.5 px-2 bg-[#FFA500] hover:bg-[#FF9100] active:bg-[#E68A00] text-[#002653] font-bold text-[11px] rounded-lg shadow-xs transition-colors flex items-center justify-center gap-1 cursor-pointer"
+>
+  <Phone className="w-3 h-3" />
+  <span>Hire / Rent</span>
+</a>
 
-                  onClick={() => handleWhatsAppEnquiry(selectedItem)}
-
-                  className="w-1/2 sm:w-auto px-5 py-2 bg-[#FFA500] hover:bg-[#FF9100] active:bg-[#E68A00] text-[#002653] text-xs font-bold rounded-xl shadow-xs flex items-center justify-center space-x-1.5 transition-transform transform active:scale-95 cursor-pointer"
-
-                >
-
-                  <Phone className="w-3.5 h-3.5" />
-
-                  <span>Enquire Now</span>
-
-                </button>
 
               </div>
 
