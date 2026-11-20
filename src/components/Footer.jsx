@@ -141,12 +141,19 @@ export default function Footer({ onNavigate }) {
                 </a>
               </div>
 
+              
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-[#FFA500] flex-shrink-0" />
-                <a href={`mailto:${companyInfo.email}`} className="text-white hover:text-[#FFA500] transition-colors font-medium">
+                <a
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(companyInfo.email)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-[#FFA500] transition-colors font-medium"
+                >
                   {companyInfo.email}
                 </a>
               </div>
+
 
               <div className="flex items-center space-x-3">
                 <MessageSquare className="w-4 h-4 text-[#FFA500] flex-shrink-0" />
