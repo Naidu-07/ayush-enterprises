@@ -1111,7 +1111,7 @@ export const productsData = [
 
 {
   id: "jack-nut-t-type",
-  name: "Jack Nut T-Type",
+  name: "Jack Nut T Type",
   category: "Scaffolding & Accessories",
   subCategory: "Jack Accessories",
   type: "Accessories",
