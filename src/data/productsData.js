@@ -287,7 +287,7 @@ export const productsData = [
     category: "Mivan Formwork Accessories",
     subCategory: "Pin and Wedge Systems",
     type: "Formwork",
-    image: "/assets/products/pin.jpg",
+    image: "/assets/products/pin.png",
     description: "Heat-treated high tensile steel connecting pin for interlocking adjacent aluminum formwork panel flanges securely.",
     applications: ["Aluminum Panel Jointing", "Mivan Wall & Deck Connecting", "Rapid Assembly"],
     specifications: {
@@ -319,7 +319,7 @@ export const productsData = [
     category: "Mivan Formwork Accessories",
     subCategory: "Pin and Wedge Systems",
     type: "Formwork",
-    image: "/assets/products/long-pin.jpg",
+    image: "/assets/products/long-pin.png",
     description: "Extended shank pin used when joining multiple aluminum formwork profiles, rocker channels, or beam connections.",
     applications: ["Multi-flange Connection", "Corner Profile Assembly", "Beam Bottom Locking"],
     specifications: {
@@ -480,7 +480,7 @@ export const productsData = [
     category: "Mivan Formwork Accessories",
     subCategory: "Tools and Fasteners",
     type: "Formwork",
-    image: "/assets/products/tie-puller.jpg",
+    image: "/assets/products/tie-puller.png",
     description: "Ergonomic leverage puller tool designed to extract flat wall ties from cured concrete walls swiftly without wall damage.",
     applications: ["Demoulding Flat Ties", "Post-Pour Form Stripping", "Fast Construction Cycles"],
     specifications: {
@@ -490,6 +490,57 @@ export const productsData = [
       "Finish": "Zinc plated / Powder coated"
     }
   },
+
+{
+  id: "shikanja",
+  name: "Shikanja",
+  category: "Mivan Formwork Accessories",
+  subCategory: "Tools and Fasteners",
+  type: "Formwork",
+  image: "/assets/products/shikanja.png",
+  description: "Heavy-duty steel Shikanja used for holding, securing, and aligning shuttering panels during concrete construction. Designed with a long flat steel body and hooked ends to provide firm support and stability during formwork assembly.",
+  applications: [
+    "Shuttering Panel Clamping",
+    "Formwork Alignment",
+    "Mivan Formwork Assembly",
+    "Concrete Wall Shuttering",
+    "Panel Holding and Securing"
+  ],
+  specifications: {
+    "Type": "Shikanja Formwork Clamp",
+    "Material": "Heavy-Duty Steel",
+    "Design": "Long Flat Bar with Hooked Ends",
+    "Finish": "Black Steel Finish",
+    "Sizes": "Various Sizes Available",
+    "Application": "Formwork and Shuttering Systems"
+  }
+},
+
+
+{
+  id: "dywidag-pin",
+  name: "Dywidag Pin",
+  category: "Mivan Formwork Accessories",
+  subCategory: "Tools and Fasteners",
+  type: "Formwork",
+  image: "/assets/products/dywidag-pin.png",
+  description: "Heavy-duty threaded fastening accessory used for securing, aligning, and tightening Mivan aluminium formwork panels during concrete construction.",
+  applications: [
+    "Mivan Formwork Assembly",
+    "Aluminium Panel Connections",
+    "Wall Shuttering",
+    "Panel Alignment",
+    "Formwork Tightening"
+  ],
+  specifications: {
+    "Type": "Threaded Formwork Pin",
+    "Material": "Heavy-Duty Steel",
+    "Finish": "Protective Coated",
+    "Length": "250 mm (verify available sizes)",
+    "Components": "Threaded Rod, Angled Pin and Fastening Bracket"
+  }
+},
+
   {
     id: "panel-puller",
     name: "Panel Puller",
@@ -512,7 +563,7 @@ export const productsData = [
     category: "Mivan Formwork Accessories",
     subCategory: "Tools and Fasteners",
     type: "Formwork",
-    image: "/assets/products/hole-berri.jpg",
+    image: "/assets/products/hole-berri.png",
     description: "Reaming and punch alignment tool used to clear slurry and align pin holes between misaligned panel flanges on site.",
     applications: ["Pin Hole Alignment", "Concrete Slurry Clearance", "Panel Erection"],
     specifications: {
@@ -576,7 +627,7 @@ export const productsData = [
     category: "Mivan Formwork Accessories",
     subCategory: "Alignment and Clamping",
     type: "Formwork",
-    image: "/assets/products/german-clamp.jpg",
+    image: "/assets/products/german-clamp.png",
     description: "Rapid spring lever clamp used for clamping external waler rails and edge form stiffeners in modern formwork systems.",
     applications: ["External Rail Clamping", "Waler Securing", "High Pressure Edge Formwork"],
     specifications: {
@@ -941,7 +992,7 @@ export const productsData = [
     category: "Scaffolding & Accessories",
     subCategory: "Props and Accessories",
     type: "Accessories",
-    image: "/assets/products/lt-nut.jpg",
+    image: "/assets/products/lt-nut.png",
     description: "Heavy cast iron prop collar nut with dual straight handles designed for fast manual height adjustment of shoring props under load.",
     applications: ["Acrow Prop Adjustment", "Formwork Level Adjustment"],
     specifications: {
@@ -1031,6 +1082,61 @@ export const productsData = [
       "Weight": "Approx 0.85 kg"
     }
   },
+
+{
+  id: "jack-nut-cup-type",
+  name: "Jack Nut Cup Type",
+  category: "Scaffolding & Accessories",
+  subCategory: "Supporting Jacks",
+  type: "Accessories",
+  image: "/assets/products/jack-nut-cup-type.png",
+  description: "Heavy-duty cup-type jack nut used in adjustable scaffolding base jacks and U-head jacks. Designed with internal threading, a wide circular base, and a side lug for adjusting and securing jack height during construction.",
+  applications: [
+    "Adjustable Base Jacks",
+    "U-Head Jack Assemblies",
+    "Scaffolding Height Adjustment",
+    "Shuttering Support Systems",
+    "Construction Formwork Support"
+  ],
+  specifications: {
+    "Type": "Cup Type Jack Nut",
+    "Material": "Cast Iron",
+    "Finish": "Natural Cast Iron Finish",
+    "Design": "Internally Threaded Cup with Side Lug",
+    "Compatibility": "Adjustable Base Jacks and U-Head Jacks",
+    "Thread Size": "As Per Jack Rod Specification",
+    "Application": "Scaffolding and Shuttering Systems"
+  }
+},
+
+{
+  id: "jack-nut-t-type",
+  name: "Jack Nut T-Type",
+  category: "Scaffolding & Accessories",
+  subCategory: "Jack Accessories",
+  type: "Accessories",
+  image: "/assets/products/jack-nut-t-type.png",
+  description: "Heavy-duty two-wing jack nut designed for adjustable scaffolding base jacks and U-head jacks. Features a centrally threaded body with two extended wings for convenient manual height adjustment and secure positioning of scaffolding support systems.",
+  applications: [
+    "Adjustable Base Jacks",
+    "U-Head Jack Assemblies",
+    "Scaffolding Height Adjustment",
+    "Shuttering Support Systems",
+    "Formwork Leveling",
+    "Construction Support Structures"
+  ],
+  specifications: {
+    "Type": "Two Wing Jack Nut",
+    "Material": "Cast Metal",
+    "Finish": "Silver Grey Metallic Finish",
+    "Design": "Internally Threaded Nut with Two Wings",
+    "Compatibility": "Adjustable Base Jacks and U-Head Jacks",
+    "Thread Size": "As Per Jack Rod Specification",
+    "Application": "Scaffolding and Shuttering Systems"
+  }
+},
+
+
   {
     id: "jack-nut",
     name: "Jack Nut",
@@ -1069,7 +1175,7 @@ export const productsData = [
     category: "Scaffolding & Accessories",
     subCategory: "Connectors and Accessories",
     type: "Accessories",
-    image: "/assets/products/joint-pin.jpg",
+    image: "/assets/products/joint-pin.png",
     description: "Expanding internal joint pin with center expansion bolt that wedges inside adjacent scaffold tubes for seamless jointing.",
     applications: ["Internal Tube Alignment", "Flush Ledger Joints"],
     specifications: {
@@ -1411,7 +1517,7 @@ export const productsData = [
     category: "Tile Protection & Accessories",
     subCategory: "Floor Protection Sheets",
     type: "Consumables",
-    image: "/assets/products/tile-protection-sheet.jpg",
+    image: "/assets/products/tile-protection-sheet.png",
     description: "Multi-layer padded floor protection mat (blue roll) designed to safeguard expensive vitrified tiles, marble and wooden floors during painting and interior work.",
     applications: ["Finished Floor Protection", "Marble & Italian Stone Guard", "Interior Fit-out Work"],
     specifications: {
